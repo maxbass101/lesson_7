@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@import "null.css";
+
+body {
+   font-family: "Lato";
+}
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+[class*="background-"]{
+	padding: 10px 10px;
+}
+
+.header {
+   background: url("../img/header/illustration.png") left bottom / 100px no-repeat, url("../img/header/illustration.png") right bottom / 100px no-repeat, linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 20%);
+   padding-bottom: 20px;
+}
+.header__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   text-align: center;
+   color: #1E212C;
+}
+.header__list {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #1E212C;
+}
+.header__list a {
+   text-decoration: underline;
+}
+
+/* <BLOCK1> =======================================================================================================================*/
+.block1 {
+   overflow: hidden;
+   padding: 80px 0px;
+   background: url("../img/block1/dots.png") left bottom no-repeat, url("../img/block1/circles.png") right -30% no-repeat,url("../img/block1/bg.jpg");
+   color: #1E212C;
+}
+.block1__subtitle,
+.block3__subtitle {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: 1px;
+   text-align: center;
+   text-transform: uppercase;
+   margin-bottom: 8px;
+}
+.block1__title,
+.block3__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   text-align: center;
+   margin-bottom: 60px;
+}
+.block1__calendar {
+   background: #fff;
+   border-radius: 10px;
+   margin-bottom: 24px;
+}
+.calendar__item {
+   padding: 5px;
+}
+.number {
+   font-weight: 900;
+   font-size: 48px;
+   line-height: 130%;
+   letter-spacing: 1px;
+   color: #FF3F3A;
+}
+.month {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+}
+.events {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+}
+.link {
+   padding: 5px;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 44px;
+   text-align: center;
+   letter-spacing: 0.5px;
+   border: 2px solid #FF3F3A;
+   border-radius: 4px;
+}
+.number,
+.month,
+.events {
+   margin-right: 10px;
+}
+/* </BLOCK1> =======================================================================================================================*/
+
+/* <BLOCK2> =========================================================================================================================*/
+.block2 {
+   padding: 10px 10px;
+}
+.form {
+   padding: 48px;
+   background: url("../img/block2/bg.jpg") center;
+   border-radius: 4px;
+}
+.form__up {
+   margin-bottom: 40px;
+}
+.form__title {
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 130%;
+   color: #1E212C;
+}
+.form__numbers {
+   text-align: right;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 130%;
+   color: #1E212C;
+}
+.field__name,
+.field__email,
+.field__phone {
+   display: inline-block;
+   width: 24%;
+   background-color: #fff;
+   padding: 5px;
+   border: 2px solid #D7DADD;
+   border-radius: 4px;
+
+}
+.form__link {
+   display: inline-block;
+   width: 24%;
+   padding: 5px;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 44px;
+   text-align: center;
+   letter-spacing: 0.5px;
+   color: #FFFFFF;
+   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+   border-radius: 4px;
+}
+/* </BLOCK2> =======================================================================================================================*/
+
+/* <BLOCK3> =======================================================================================================================*/
+.block3 {
+   background: #F4F5F7;
+   padding: 100px 100px;
+}
+.block3__text {
+   margin-bottom: 60px;
+}
+.block3__subtitle,
+.block3__title {
+   text-align: left;
+}
+.block3__title {
+   margin: 0px;
+}
+.item {
+   display: inline-block;
+   width: 33%;
+   background: #FFFFFF;
+   border: 1px solid #E5E8ED;
+   box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+   border-radius: 4px;
+   padding: 5px;
+}
+.item__number {
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 150%;
+   color: #FF3F3A;
+}
+.item__events {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 150%;
+   color: #1E212C;
+}
+.item__link {
+   width: 100%;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 44px;
+   text-align: center;
+   letter-spacing: 0.5px;
+   border: 2px solid #FF3F3A;
+   border-radius: 4px;
+}
+/* </BLOCK3> =======================================================================================================================*/
+
+/* <СТАТЬЯ>========================================================= */
+.article {
+   padding: 60px 60px;
+   font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+}
+.article__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   align-items: center;
+   color: #1E212C;
+   margin-bottom: 92px;
+}
+.article__image {
+   margin-bottom: 60px;
+}
+.article__image img {
+   max-width: 100%;
+}
+.article p,
+.article__list {
+   margin-bottom: 24px;
+}
+.bold,
+.quote {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+}
+.quote {
+   padding: 24px 0px 24px 58px;
+}
+.article__list {
+   padding-left: 32px;
+}
+.article__list li {
+   line-height: 200%;
+}
+.article__list + p {
+   margin-bottom: 0px;
+}
+/* </СТАТЬЯ>========================================================= */
+
+/* <background>========================================================= */
+.title {
+   font-size: 24px;
+   line-height: 29px;
+}
+.subtitle {
+   font-size: 18px;
+   line-height: 21px;
+   color: #6c6c6c;
+}
+.background__list {
+   padding-left: 10px;
+}
+.background-color {
+   background: rgba(247, 94, 5, 0.5);
+   /* background-color: #F75E05; */
+}
+.background-image {
+   color: #fff;
+   background: url('../img/monro.jpeg');
+   /* background-image: url('../img/monro.jpeg'); */
+}
+.background-image__line-grad {
+   margin-bottom: 10px;
+   height: 100px;
+   background: -webkit-linear-gradient(top, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
+   /* background-image: -webkit-linear-gradient(top, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%); */
+}
+.background-image__rad-grad {
+   height: 100px;
+   background: -webkit-radial-gradient(center, ellipse cover, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
+   /* background-image: -webkit-radial-gradient(center, ellipse cover, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%); */
+}
+.background-repeat {
+   background: url('../img/monro.jpeg') no-repeat;
+}
+.background-repeat__x {
+   color: #fff;
+   height: 200px;
+   background: url('../img/monro.jpeg') repeat-x;
+   border: 1px solid #000;
+   margin-bottom: 10px;
+}
+.background-repeat__y {
+   text-align: right;
+   height: 400px;
+   background: url('../img/monro.jpeg') repeat-y;
+   border: 1px solid #000;
+}
+.background-position {
+   background: url('../img/monro.jpeg') 0 0 no-repeat; 
+}
+.background-size__any,
+.background-position__any,
+.background-position__corner,
+.background-position__left,
+.background-position__center {
+   height: 300px;
+   background: url('../img/monro.jpeg') center no-repeat;
+   border: 1px solid #000;
+   margin-bottom: 10px;
+}
+.background-position__left {
+   background-position: 0 50%;
+}
+.background-position__corner {
+   background-position: bottom right;
+}
+.background-position__any {
+   background-position: 100px 150px;
+}
+.background-attachment {
+   background: url('../img/monro.jpeg') no-repeat scroll;
+}
+.background-attachment__local,
+.background-attachment__fixed {
+   color: #fff;
+   height: 400px;
+   background: url('../img/monro.jpeg') 0 0 fixed;
+   margin-bottom: 10px;
+}
+.background-attachment__local {
+   height: 200px;
+   overflow: auto;
+   background-attachment: local;
+}
+.background-size {
+   background: url('../img/monro.jpeg') 0 0/auto auto no-repeat;
+}
+.background-size__contain,
+.background-size__full,
+.background-size__height,
+.background-size__width {
+   color: #fff;
+   height: 200px;
+   background: url('../img/monro.jpeg') 0 0/100% auto no-repeat;
+   margin-bottom: 10px;
+   border: 1px solid #000;
+}
+.background-size__height {
+   background-size: auto 100%;
+}
+.background-size__full {
+   height: 400px;
+   background-size: 100% 100%;
+}
+.background-size__conver,
+.background-size__contain {
+   color: #fff;
+   height: 300px;
+   background: url('../img/marilyn-monroe.jpg') 0 0/contain no-repeat;
+}
+.background-size__conver {
+   background-position: center;
+   background-size: cover;
+   margin-bottom: 10px;
+}
+.background-size__any {
+   background-size: 200px 150px;
+}
+/* </background>========================================================= */
+
+footer {
+   padding: 10px;
+   font-size: 40px;
+   font-weight: 700;
+}
